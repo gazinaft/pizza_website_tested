@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34225a65-16c0-498b-a010-9407654f2c1d" name="Default Changelist" comment="tests and configs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/30.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/30.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/329.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/329.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/368.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/368.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/369.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/369.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/429.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/429.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/480.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/480.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/624.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/624.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/716.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/716.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/722.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/722.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/762.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/762.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/806.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/806.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/87.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/87.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/879.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/879.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/880.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/880.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lgSl3wYN4BuQjtOBY72GuhBsOD" />
