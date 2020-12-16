@@ -1,7 +1,7 @@
-#The fourth lab, but tested and builded with webpack
+# The fourth lab, but tested and builded with webpack
 
-##Linter results
+## Linter results
 <img src="linter_pass.png">
 
-##Test coverage
+## Test coverage
 <img src="test_coverage.png">
