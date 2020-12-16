@@ -1,15 +1,7 @@
-# 🚀 Welcome to your new awesome project!
+#The fourth lab, but tested and builded with webpack
 
-This project has been created using **webpack scaffold**, you can now run
+##Linter results
+<img src="linter_pass.png">
 
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+##Test coverage
+<img src="test_coverage.png">
