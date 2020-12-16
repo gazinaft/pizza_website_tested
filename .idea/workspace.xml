@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34225a65-16c0-498b-a010-9407654f2c1d" name="Default Changelist" comment="tests and configs">
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/cartLogic.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/router.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/client.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/router.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/30.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/329.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/368.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/369.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/429.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/480.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/624.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/716.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/722.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/762.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/806.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/87.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/879.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/880.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bawaria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bbq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big_pizza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cheeseburger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/country.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/curry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/diavolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/five_cheese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/five_pizza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/free30min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hawaii.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/margarita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mitzza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pepperoni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/salmon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/spinachfeta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/texas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/toscana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tuna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/woweekend.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/cartLogic.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/client.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/router.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/__tests__/action/page.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/__tests__/catalog.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/__tests__/catalog/page.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/__tests__/mainPage.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/__tests__/order.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/__tests__/orderDone.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/__tests__/product/page.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bawaria.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bawaria.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bbq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bbq.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big_pizza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/big_pizza.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cheeseburger.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/cheeseburger.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/country.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/country.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/curry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/curry.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diavolo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/diavolo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/five_cheese.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/five_cheese.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/five_pizza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/five_pizza.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/free30min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/free30min.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hawaii.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/hawaii.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/margarita.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/margarita.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mitzza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/mitzza.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pepperoni.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/pepperoni.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/salmon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/salmon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spinachfeta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/spinachfeta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/texas.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/texas.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/toscana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/toscana.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tuna.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/tuna.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/woweekend.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/woweekend.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/engine.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/engine.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cartLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cartLogic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/action/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/action/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/catalog/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/catalog/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/orderDone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/orderDone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/product/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/product/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lgSl3wYN4BuQjtOBY72GuhBsOD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pizza_website_tested\dist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Main Module">
+    <configuration name="Cart (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/client.test.js" />
+      <test-names>
+        <test-name value="Cart" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Cart.should get from server" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/client.test.js" />
+      <test-names>
+        <test-name value="Cart" />
+        <test-name value="should get from server" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Cart.should post to server" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/client.test.js" />
+      <test-names>
+        <test-name value="Cart" />
+        <test-name value="should post to server" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Main Module" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/script.test.js" />
+      <test-names>
+        <test-name value="Main Module" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Main Module.should open and close menu" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/script.test.js" />
+      <test-names>
+        <test-name value="Main Module" />
+        <test-name value="should open and close menu" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Main Module" />
+        <item itemvalue="Jest.Main Module.should open and close menu" />
+        <item itemvalue="Jest.Cart.should post to server" />
+        <item itemvalue="Jest.Cart (1)" />
+        <item itemvalue="Jest.Cart.should get from server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34225a65-16c0-498b-a010-9407654f2c1d" name="Default Changelist" comment="" />
+      <created>1608017390341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608017390341</updated>
+      <workItem from="1608017392521" duration="509000" />
+      <workItem from="1608029175741" duration="2928000" />
+      <workItem from="1608048624046" duration="13639000" />
+      <workItem from="1608132303729" duration="17684000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="tests and configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests and configs" />
+  </component>
+</project>

@@ -1,51 +1,35 @@
 const path = require('path');
-const webpack = require('webpack');
-
-const TerserPlugin = require('terser-webpack-plugin');
-
-
-
+const HtmlWebPackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: './src/script.js',
-  plugins: [new webpack.ProgressPlugin()],
-
-  module: {
-    rules: [{
-      test: /\.(js|jsx)$/,
-      include: [path.resolve(__dirname, 'src')],
-      loader: 'babel-loader'
-    }, {
-      test: /.css$/,
-
-      use: [{
-        loader: 'style-loader'
-      }, {
-        loader: 'css-loader',
-
-        options: {
-          sourceMap: true
-        }
-      }]
-    }]
+  devtool: 'inline-source-map',
+  devServer: {
+    liveReload: true,
+    hot: true,
   },
-
-  optimization: {
-    minimizer: [new TerserPlugin()],
-
-    splitChunks: {
-      cacheGroups: {
-        vendors: {
-          priority: -10,
-          test: /[\\/]node_modules[\\/]/
-        }
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
-
-      chunks: 'async',
-      minChunks: 1,
-      minSize: 30000,
-      name: false
-    }
-  }
+    ],
+  },
+  plugins: [
+    new HtmlWebPackPlugin({
+      filename: 'index.html',
+      template: 'index.html',
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: 'img', to: 'img' },
+      ],
+    }),
+  ]
 };

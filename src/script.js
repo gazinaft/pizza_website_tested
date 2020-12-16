@@ -3,7 +3,6 @@ import Router from './router.js';
 import Client from './client.js';
 import Cart from './cartLogic.js';
 
-
 const openNav = () => {
   document.getElementById('myNav').style.width = '100%';
 };
@@ -92,7 +91,6 @@ const submitForm = async () => {
     order: cart.getItems(),
     price: cart.getPrice(db.products)
   };
-  console.log(JSON.stringify(obj));
   cart.clear();
   const orderId = (await client.post(obj, 'orders')).id;
   const view = (await import('./views/orderDone.js')).default;
@@ -104,8 +102,8 @@ const submitForm = async () => {
 
 
 async function loadMain() {
-  const view = await import('./views/mainPage.js');
-  const data = await client.getData('db');
+  const view = await import('./views/mainPage.js').catch((e) => console.log(e));
+  const data = await client.getData('db').catch((e) => console.log(e));
   engine.render(view(data));
 }
 
@@ -134,8 +132,21 @@ mainF();
 window.addEventListener('hashchange', mainF);
 
 const checkEmpty = () => {
-  if(cart.isEmpty() && router.getHash() == 'order') {
+  if(cart.isEmpty() && router.getHash() === 'order') {
     router.goBack();
   }
 };
 window.addEventListener('hashchange', checkEmpty);
+
+
+export {
+  openNav,
+  closeNav,
+  submitForm,
+  changeHash,
+  cartadd,
+  cartremove,
+  mainF,
+  loadMain,
+  checkEmpty
+};

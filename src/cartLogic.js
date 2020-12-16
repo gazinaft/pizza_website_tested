@@ -1,7 +1,7 @@
 export default class Cart {
   
   constructor() {
-    if (localStorage.getItem('cart') == null) {
+    if (localStorage.getItem('cart') === undefined) {
       localStorage.setItem('cart', '{}');
     }
   }
@@ -50,9 +50,8 @@ export default class Cart {
   visualize(data, view) {
     const cartproducts = this.getItems();
     const products = data.products.filter(prod => Object.keys(cartproducts).includes(prod.id)); 
-    view.innerHTML = `
-    <div class="list-group">
-      ${products.map(product =>
+    view.innerHTML = `<div class="list-group">
+${products.map(product =>
     `<a class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">${product.productName}</h5>
@@ -60,13 +59,10 @@ export default class Cart {
         <p class="mb-1">${cartproducts[product.id]} for ${product.price} each</p>
         <hr>
         <button class="cartbtn btn btn-outline-primary" id="${product.id}" style="float: left">Add</button>
-        <button class="removebtn btn btn-outline-primary" id="${product.id}">Remove</button>
-          
-      </a>`)}
+        <button class="removebtn btn btn-outline-primary" id="${product.id}">Remove</button>   
+      </a>`).join('\n')}
         <h3>Total: ${this.getPrice(data.products)}</h3>
-    </div>
-    `;
+    </div>`;
   }
-
 
 }

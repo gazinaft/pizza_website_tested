@@ -5,11 +5,11 @@ export default class Router {
   }
 
   changeURL(url) {
-    globalThis.history.pushState({}, null, `#${url}`);
+    history.pushState({}, null, `#${url}`);
   }
 
   replace(hash) {
-    globalThis.history.replaceState({}, null, `#${hash}`);
+    history.replaceState({}, null, `#${hash}`);
   }
   
   goBack() {
@@ -18,7 +18,6 @@ export default class Router {
 
   getShit(midURL) {
     return (endURL = '') => ({
-      'cart': {viewName: 'cart', endpointName: 'db'},
       'catalog': {viewName: `${endURL ? 'catalog/page' : 'catalog'}`, endpointName: 'db'},
       'order': {viewName: 'order', endpointName: 'db'},
       'action': {viewName: `${endURL ? 'action/page' : 'mainPage'}`, endpointName: 'db'},

@@ -6,7 +6,7 @@ export default class Client {
   }
 
   post(data, endpoint) {
-    return fetch(`https://my-json-server.typicode.com/gazinaft/pizza_db/${endpoint}`, { 
+    return fetch(`https://my-json-server.typicode.com/gazinaft/pizza_db/${endpoint}`, {
       method: 'POST',  
       body: JSON.stringify(data)
     })

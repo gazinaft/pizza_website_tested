@@ -1,11 +1,10 @@
 const display = (data, hash) => {
   const endpoint = hash.split('/').pop();
   const product = data.products.find(prod => prod.id === endpoint);
-  return `
-  <div class="container-fluid">
+  return `<div class="container-fluid">
     <div class="row">
       <div class="col-md-4">
-        <img src="./images/${product.images}.jpg" style="width: 100%">
+        <img src="./img/${product.images}.jpg" style="width: 100%">
       </div>
       <div class="col-md-8">
         <h1>${product.productName}</h1>
@@ -21,24 +20,21 @@ const display = (data, hash) => {
 
         <h3>Related products</h3>
         <div class="row">
-          ${data.products.filter((x, i) => product.relatedProductIds.includes(i))
-    .map(prod => `
-            <div class="col-md-4">
+${data.products.filter((x, i) => product.relatedProductIds.includes(i))
+    .map(prod => `<div class="col-md-4">
               <div class="thumbnail">
                 <a href="#product/${prod.id}">
-                  <img class="img-thumbnail" src="./images/${prod.images}.jpg" alt="${prod.productName}" style="width:100%">
+                  <img class="img-thumbnail" src="./img/${prod.images}.jpg" alt="${prod.productName}" style="width:100%">
                   <div class="caption">
                     <p>${prod.productName}</p>
                   </div>
                 </a>
               </div>
-            </div>
-            `).join('\n')}
+            </div>`).join('\n')}
         </div>
       </div>
     </div>
-  </div>
-  `;
+  </div>`;
 };
 
 export default display;
