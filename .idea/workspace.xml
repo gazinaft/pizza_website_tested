@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34225a65-16c0-498b-a010-9407654f2c1d" name="Default Changelist" comment="tests and configs">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="34225a65-16c0-498b-a010-9407654f2c1d" name="Default Changelist" comment="index changes">
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/script.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/cartLogic.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/cartLogic.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/client.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/client.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/engine.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/engine.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/router.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/router.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/cartLogic.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/cartLogic.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/client.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/client.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/engine.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/engine.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/router.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/router.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/action/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/action/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/action/page.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/action/page.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/catalog.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/catalog.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/catalog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/catalog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/catalog/page.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/catalog/page.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/mainPage.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/mainPage.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/order.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/order.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/orderDone.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/orderDone.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/product/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/src/views/product/page.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/src/views/product/page.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/30.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/30.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/329.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/329.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/368.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/368.bundle.js" afterDir="false" />
@@ -18,6 +48,29 @@
       <change beforePath="$PROJECT_DIR$/dist/879.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/879.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/880.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/880.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/cartLogic.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/cartLogic.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/client.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/client.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/engine.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/engine.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/router.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/router.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cartLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cartLogic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/__tests__/action/page.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/__tests__/action/page.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/__tests__/catalog.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/__tests__/catalog.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/__tests__/catalog/page.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/__tests__/catalog/page.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/__tests__/mainPage.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/__tests__/mainPage.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/__tests__/order.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/__tests__/order.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/__tests__/orderDone.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/__tests__/orderDone.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/__tests__/product/page.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/__tests__/product/page.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/action/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/action/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/catalog/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/catalog/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/orderDone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/orderDone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/product/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/product/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +105,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,7 +121,7 @@
       <recent name="D:\pizza_website_tested\dist" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Main Module">
+  <component name="RunManager" selected="Jest.Router Test">
     <configuration name="Cart (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -79,20 +132,6 @@
       <test-file value="$PROJECT_DIR$/src/__tests__/client.test.js" />
       <test-names>
         <test-name value="Cart" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Cart.should get from server" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/client.test.js" />
-      <test-names>
-        <test-name value="Cart" />
-        <test-name value="should get from server" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -137,13 +176,26 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Router Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/router.test.js" />
+      <test-names>
+        <test-name value="Router Test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Router Test" />
         <item itemvalue="Jest.Main Module" />
         <item itemvalue="Jest.Main Module.should open and close menu" />
         <item itemvalue="Jest.Cart.should post to server" />
         <item itemvalue="Jest.Cart (1)" />
-        <item itemvalue="Jest.Cart.should get from server" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +211,21 @@
       <workItem from="1608029175741" duration="2928000" />
       <workItem from="1608048624046" duration="13639000" />
       <workItem from="1608132303729" duration="17684000" />
+      <workItem from="1608207449375" duration="3232000" />
+      <workItem from="1608225575819" duration="20000" />
+      <workItem from="1608550850911" duration="581000" />
+      <workItem from="1608569343808" duration="718000" />
+      <workItem from="1608575727439" duration="24000" />
+      <workItem from="1608578259037" duration="25000" />
     </task>
+    <task id="LOCAL-00001" summary="index changes">
+      <created>1608156235994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608156235994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +246,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="tests and configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests and configs" />
+    <MESSAGE value="index changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="index changes" />
   </component>
 </project>

@@ -4,7 +4,7 @@ const display = () => {
     <div class="container" style="max-width: 600px">
       <h2>Email</h2>
       <div class="form-group has-success">
-        <input type="email" placeholder="Your email" class="form-control" id="email" required >
+        <input type="email" placeholder="Your email" class="form-control" id="email" required>
       </div>
   
       <h2>Phone</h2>

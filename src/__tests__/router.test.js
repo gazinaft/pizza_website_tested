@@ -4,8 +4,19 @@ import Router from '../router.js';
 
 describe('Router Test', () => {
   beforeAll(() => {
-
+    const mockedFetch = () => {
+      return Promise.resolve({
+        json() {
+          return { id: 1 };
+        }
+      });
+    };
+    Object.defineProperty(window, 'fetch', {value: jest.fn(mockedFetch)});
+    document.body.innerHTML = '<div id="main"></div>';
+    require('../script.js');
   });
+
+
   it('should deal with History API', () => {
     const pushState = jest.fn();
     const replaceState = jest.fn();

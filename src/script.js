@@ -12,14 +12,17 @@ const closeNav = () => {
 };
 
 
-const show = async () => {
+const show = () => {
   const tag = document.getElementById('dropdown');
   if (tag.classList.contains('show')) {
     tag.classList.remove('show');
   } else {
     tag.classList.add('show');
-    const data = await client.getData('db');
-    cart.visualize(data, tag);
+
+    client.getData('db')
+      .then((data) => {
+        cart.visualize(data, tag);
+      });
   }
 };
 
@@ -70,7 +73,7 @@ const cartremove = (item) => {
   cart.delete(item);
 };
 
-const submitForm = async () => {
+const submitForm =  () => {
   const email = document.getElementById('email');
   const phone = document.getElementById('phone');
   const name = document.getElementById('name');
@@ -78,7 +81,7 @@ const submitForm = async () => {
   const time = document.getElementById('time');
   const cash = document.getElementById('cash');
   engine.loader();
-  let db = await client.getData('db');
+  let db = client.getData('db');
   console.log(db);
   console.log(cart.getItems());
   const obj = {
@@ -92,8 +95,8 @@ const submitForm = async () => {
     price: cart.getPrice(db.products)
   };
   cart.clear();
-  const orderId = (await client.post(obj, 'orders')).id;
-  const view = (await import('./views/orderDone.js')).default;
+  const orderId = ( client.post(obj, 'orders')).id;
+  const view = ( import('./views/orderDone.js')).default;
   window.removeEventListener('hashchange', mainF);
   router.changeURL(`order${orderId}`);
   engine.render(view(obj, db.products));
